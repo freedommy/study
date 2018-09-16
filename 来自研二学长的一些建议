@@ -1,0 +1,127 @@
+
+# 视频课程
+
+## 李飞飞计算机视觉
+这门课是斯坦福cs231n，主要是深度学习和计算机视觉的结合。
+
+2016课程
+>https://study.163.com/course/courseMain.htm?courseId=1003223001
+
+2017课程
+>https://study.163.com/course/introduction.htm?courseId=1004697005#/courseDetail?tab=1
+
+课程官网，可以从上面下载课件和作业。建议听完课把作业一起做完，网上有很多别人分享的答案。
+>http://cs231n.stanford.edu/syllabus.html
+
+## 吴恩达机器学习
+这门课主要是机器学习，和深度学习有些区别（可以说深度学习是机器学习的一种）。
+>https://www.coursera.org/learn/machine-learning
+
+coursera上的机器学习有作业，编程语言是octave（类似于matlab），也是建议把作业都自己做一下。
+
+也可以看cs229上的机器学习课程，但是这个据说比coursera的要难一些,推荐上面那个。
+
+>http://open.163.com/special/opencourse/machinelearning.html
+
+cs229官网
+>http://cs229.stanford.edu/syllabus.html
+
+## 机器学习中文教程
+别人分享到百度云上的，我没看过。
+
+>https://pan.baidu.com/s/1CFbuqLwqcLoogtmALr_Ugg
+
+# 计算机视觉的内容
+## 图像分类<- 卷积神经网络CNN
+- 演化过程和一些经典论文：
+https://blog.csdn.net/feimengjuan/article/details/69666981
+
+- Alexnet
+https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+
+- ZF
+https://arxiv.org/abs/1311.2901
+
+- VGG
+https://arxiv.org/abs/1409.1556
+
+- ResNet
+https://arxiv.org/abs/1512.03385
+
+- GoogLeNet
+https://arxiv.org/abs/1409.4842
+
+- Inception
+https://arxiv.org/abs/1512.00567
+
+## 图像检测<- 区域卷积神经网络RCNN
+- RCNN
+https://arxiv.org/pdf/1311.2524v5.pdf
+
+- Fast RCNN
+https://arxiv.org/pdf/1504.08083.pdf
+
+- Faster RCNN
+https://arxiv.org/pdf/1506.01497v3.pdf
+
+- SPP-net
+https://arxiv.org/abs/1406.4729
+
+- R-FCN
+https://arxiv.org/abs/1605.06409
+
+- FPN
+https://arxiv.org/abs/1612.03144
+
+- Yolov1-v3
+https://blog.csdn.net/dQCFKyQDXYm3F8rB0/article/details/80571270
+http://www.mamicode.com/info-detail-2314392.html
+
+- SSD
+https://arxiv.org/abs/1512.02325
+
+ 一些论文的翻译，良心资源
+
+- https://github.com/SnailTyan/deep-learning-papers-translation
+
+## 图像分割<- 全卷积神经网络FCN
+
+- FCN
+
+- DeepLab
+
+## 图像描述<- 循环神经网络RNN
+- https://arxiv.org/pdf/1412.2306v2.pdf
+
+## 图像生成<- 生成对抗网络GAN
+- https://arxiv.org/pdf/1406.2661v1.pdf
+
+# 语言和环境
+python : pycharm，anaconda
+
+C++ ：vs2015
+
+numpy,matplotlib:
+>https://zhuanlan.zhihu.com/p/24309547
+
+opencv
+>https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html
+
+tensorflow
+>https://www.w3cschool.cn/tensorflow_python/
+
+# 工具
+## git
+利用好git和github
+>https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+>https://github.com/
+
+## Markdown
+可以用来很方便的写博客。
+
+>https://www.jianshu.com/p/191d1e21f7ed
+https://www.jianshu.com/p/b03a8d7b1719
+
+推荐的markdown编辑器：atom
+
+最后说一句，最好也学习一下图像处理的相关知识，比如滤波、腐蚀、膨胀、高斯金字塔、图像的傅里叶变换、图像的特征提取等。自己上网查资料或者看数字图像处理那本书都可以。
